@@ -15,12 +15,13 @@ const phrases = [
   "STOP IT!",
   "You're a hoe",
   "Pls",
+  ":c",
 ];
 
 function App() {
   const [noCount, setNoCount] = useState(0);
   const [yesPressed, setYesPressed] = useState(false);
-  const yesButtonSize = noCount * 30 + 40;
+  const yesButtonSize = noCount * 25 + 40;
 
   function handleNoClick() {
     setNoCount(noCount + 1);
