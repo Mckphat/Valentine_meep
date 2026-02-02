@@ -8,18 +8,18 @@
 
 .yesButton {
   background-color: #6ef0a4;
-  font-family: cursive;
+  font-family: sans-serif;
   color: black;
   font-weight: bold;
 }
 .noButton {
   background-color: #cf4a8c;
-  font-family: cursive;
+  font-family: sans-serif;
   color: black;
   font-weight: bold;
 }
 .question {
-  font-family: cursive;
+  font-family: sans-serif;
   font-size: xx-large;
 }
 button {
