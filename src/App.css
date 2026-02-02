@@ -26,6 +26,7 @@ button {
   padding: 10px 20px;
   border: none;
   border-radius: 15%;
+  margin-right: 10px;
 }
 .text {
   font-size: large;
