@@ -15,10 +15,29 @@ const phrases = [
   "STOP IT!",
   "You're a hoe",
   "Pls",
+  "babe.",
+  "凸(￣ヘ￣)",
 ];
+
+/*
+const noImg = [
+  <img>
+    'https://gifdb.com/images/high/crying-emoji-sticker-cux2iq9plqj9jexj.webp'
+  </img>,
+
+  <img>
+    'https://gifdb.com/images/high/sad-crying-meme-luxpwb04l4w9s27y.webp'
+  </img>,
+
+  <img>
+    'https://gifdb.com/images/high/cat-crying-gif-u412nuee9anoo4u5.webp'
+  </img>,
+];
+*/
 
 function App() {
   const [noCount, setNoCount] = useState(0);
+  //const [noPic, setNoPic] = useState(0);
   const [yesPressed, setYesPressed] = useState(false);
   const yesButtonSize = noCount * 25 + 30;
 
@@ -43,7 +62,7 @@ function App() {
       ) : (
         <>
           <img
-            src="https://gifdb.com/images/high/kill-rabbit-choking-another-bunny-3ufe97t671uj8tiy.webp"
+            src="https://gifdb.com/images/high/kill-rabbit-choking-another-bunny-3ufe97t671uj8tiy.webp" //main image on website
             alt="Choke"
           />
 
