@@ -10,11 +10,11 @@ const phrases = [
   "No",
   "Are you sure?",
   "Really really sure?",
-  "Pls",
   "You're lying and i KNOW IT",
   "It's like you don't care...",
   "STOP IT!",
   "You're a hoe",
+  "Pls",
 ];
 
 function App() {
