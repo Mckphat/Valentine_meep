@@ -29,7 +29,7 @@ button {
 }
 .text {
   font-size: large;
-  letter-spacing: 1ch;
+  letter-spacing: 5px;
   font-family: sans-serif;
 }
 @media screen and (max-width: 800px) {
