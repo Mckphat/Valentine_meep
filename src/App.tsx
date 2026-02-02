@@ -1,6 +1,10 @@
 import { useState } from "react";
-
 import "./App.css";
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+</html>;
 
 const phrases = [
   "No",
@@ -16,7 +20,7 @@ const phrases = [
 function App() {
   const [noCount, setNoCount] = useState(0);
   const [yesPressed, setYesPressed] = useState(false);
-  const yesButtonSize = noCount * 20 + 35;
+  const yesButtonSize = noCount * 30 + 40;
 
   function handleNoClick() {
     setNoCount(noCount + 1);
