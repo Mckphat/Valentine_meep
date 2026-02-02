@@ -30,7 +30,7 @@ button {
 }
 .text {
   font-size: large;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
   font-family: sans-serif;
 }
 @media screen and (max-width: 800px) {
@@ -39,4 +39,8 @@ button {
   .right {
     width: 100%;
   }
+}
+.subText {
+  font-size: small;
+  font-family: Lucida Sans;
 }
