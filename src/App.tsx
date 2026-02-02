@@ -57,7 +57,7 @@ function App() {
             //src="https://gifdb.com/images/high/happy-cat-dance-sticker-o3nopnssrtk6yqzw.webp"
           />
           <div className="text">YIPPIEEEEEEE!!!!!!!</div>
-          <div className="subtext">DinDin time (´｡• ᵕ •｡`)</div>
+          <div className="subtext">Let's go DinDin time ? (´｡• ᵕ •｡`)</div>
         </>
       ) : (
         <>
