@@ -18,33 +18,36 @@ const phrases = [
   "凸(￣ヘ￣)",
 ];
 
-/*
-const noImg = [
-  <img>
-    'https://gifdb.com/images/high/crying-emoji-sticker-cux2iq9plqj9jexj.webp'
-  </img>,
-
-  <img>
-    'https://gifdb.com/images/high/sad-crying-meme-luxpwb04l4w9s27y.webp'
-  </img>,
-
-  <img>
-    'https://gifdb.com/images/high/cat-crying-gif-u412nuee9anoo4u5.webp'
-  </img>,
-];
-*/
-
 function App() {
+  const imageCycle = [
+    "https://gifdb.com/images/high/crying-emoji-sticker-cux2iq9plqj9jexj.webp",
+    "https://gifdb.com/images/high/sad-crying-meme-luxpwb04l4w9s27y.webp",
+    "https://gifdb.com/images/high/cat-crying-gif-u412nuee9anoo4u5.webp",
+  ];
   const [noCount, setNoCount] = useState(0);
-  //const [noPic, setNoPic] = useState(0);
   const [yesPressed, setYesPressed] = useState(false);
+  const [current, setCurrent] = useState(0);
   const yesButtonSize = noCount * 20 + 16;
 
   function handleNoClick() {
     setNoCount(noCount + 1);
+    noImageClick();
   }
+
   function getNoButtonText() {
     return phrases[Math.min(noCount, phrases.length - 1)];
+  }
+
+  function noImageClick() {
+    const nextImage = () => {
+      setCurrent((prev) => (prev + 1) % imageCycle.length);
+    };
+    return (
+      <>
+        <img src={imageCycle[current]} alt="cycle" />
+        <button onClick={nextImage}> </button>
+      </>
+    );
   }
 
   return (
@@ -52,12 +55,12 @@ function App() {
       {yesPressed ? (
         <>
           <img
-            alt="YAY"
+            alt="amongus"
             src="https://gifdb.com/images/high/yellow-among-us-shaking-back-twerk-3vq8kaluqev0pbow.webp"
             //src="https://gifdb.com/images/high/happy-cat-dance-sticker-o3nopnssrtk6yqzw.webp"
           />
           <div className="text">YIPPIEEEEEEE!!!!!!!</div>
-          <div className="subtext">Let's go DinDin time ? (´｡• ᵕ •｡`)</div>
+          <div className="subtext">Hang out and get food ? (´｡• ᵕ •｡`)</div>
         </>
       ) : (
         <>
