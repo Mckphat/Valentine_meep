@@ -15,6 +15,7 @@ const phrases = [
   "STOP IT!",
   "You're a hoe",
   "babe.",
+  "Pls.",
   "凸(￣ヘ￣)",
 ];
 
