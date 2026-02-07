@@ -60,7 +60,7 @@ function App() {
             src="https://gifdb.com/images/high/yellow-among-us-shaking-back-twerk-3vq8kaluqev0pbow.webp"
             //src="https://gifdb.com/images/high/happy-cat-dance-sticker-o3nopnssrtk6yqzw.webp"
           />
-          <div className="text">YIPPIEEEEEEE!!!!!!!</div>
+          <div className="text">YAYYYYYYYY!!!</div>
           <div className="subtext">Hang out and get food ? (´｡• ᵕ •｡`)</div>
         </>
       ) : (
