@@ -61,7 +61,12 @@ function App() {
             //src="https://gifdb.com/images/high/happy-cat-dance-sticker-o3nopnssrtk6yqzw.webp"
           />
           <div className="text">YAYYYYYYYY!!!</div>
-          <div className="subtext">Hang out and get food ? (´｡• ᵕ •｡`)</div>
+          <div className="subtext">
+            <a href="https://forms.gle/K4BD2kxo8MnfSZma6">
+              Click Here Please (´｡• ᵕ •｡`){" "}
+            </a>
+            (´｡• ᵕ •｡`)
+          </div>
         </>
       ) : (
         <>
