@@ -65,7 +65,6 @@ function App() {
             <a href="https://forms.gle/K4BD2kxo8MnfSZma6">
               Click Here Please (´｡• ᵕ •｡`){" "}
             </a>
-            (´｡• ᵕ •｡`)
           </div>
         </>
       ) : (
